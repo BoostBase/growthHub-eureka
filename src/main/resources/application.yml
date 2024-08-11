@@ -1,8 +1,8 @@
 spring:
   application:
-    name: eureka
+    name: eureka-service
   cloud:
     config:
-      name: eureka
+      name: eureka-service
   config:
     import: optional:configserver:${CONFIG_SERVER}
